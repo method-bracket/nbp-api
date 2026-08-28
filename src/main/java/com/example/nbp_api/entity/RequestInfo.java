@@ -27,7 +27,7 @@ public class RequestInfo {
     @Schema(description = "The creation time of the request (ISO 8601).")
     private LocalDateTime timeOfRequest;
 
-    RequestInfo() {
+    public RequestInfo() {
 
     }
 
